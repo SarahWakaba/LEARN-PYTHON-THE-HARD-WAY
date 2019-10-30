@@ -121,3 +121,19 @@ There is something going on Here.
 with the three double quotes.
 we will be able to type as much as we like.
 """
+#Escaping double quotes
+"I am 6'2\" tall." #escape double quotes inside Strings
+tabby_cat = "\ti am tabbed in."
+persian_cat = "I am split\non a line"
+blackslash_cat = "I'm \\ a \\ cat"
+
+fat_cat = """
+i'll do a list:
+ \t* cat food
+ \* fishies
+ \*catnib\n\t* grass
+ """
+print tabby_cat
+print persian_cat
+print blackslash_cat
+print fat_cat
